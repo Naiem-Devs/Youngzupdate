@@ -1,0 +1,264 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .container{
+        min-width: 300px;
+        margin: auto;
+    }
+    .sgl_item {
+        padding: 20px;
+        width: 100%;
+        max-width: 510px;
+        width: max-content;
+    }
+    
+    .sgl_left a {
+        font-size: 14px;
+    }
+    
+    .src_bar input {
+        width: 170px;
+        margin-left: 10px;
+    }
+    
+    .logo a img {
+        max-width: 200px;
+    }
+    
+    .logo {}
+    
+    .sgl_item img {
+        width: 90px;
+    }
+    
+    .sgl_btm a img {
+        width: max-content;
+    }
+    
+    .sgl_left {}
+    
+    .sgl_btm {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    .sgl_btm a {
+        margin-bottom: 6px;
+    }
+    
+    .src_bar img {
+        width: 50px;
+    }
+    
+    .src_bar {
+        border-radius: 30px;
+    }
+    
+    .slider_sec .owl-nav {
+        left: 50%;
+        max-width: 600px;
+        transform: translateX(-50%);
+    }
+
+    /* jOB Start */
+    .contact_b {
+        margin: auto;
+        margin-top: 0;
+    }
+    .cont_title h1 {
+        width: 300px;
+    }
+    
+    img.hd_bg {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .call {
+        flex-wrap: wrap;
+    }
+    
+    .call a {
+        margin-bottom: 10px;
+        width: 220px;
+        height: 80px;
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {}
+.sgl_left a{
+    font-size: 18px;
+}
+.sgl_item img{
+    width: unset;
+}
+.src_bar input{
+    width: 332px;
+    font-weight: 700;
+}
+.src_bar img{
+    width: unset;
+}
+img.hd_bg {
+    width: 100%;
+}
+
+}
+
+@media (max-width: 350px) {
+    section.contact {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 420px) {
+    .sgl_item img {
+        width: 50px;
+    }
+    
+    .sgl_btm {
+        flex-wrap: unset;
+    }
+    
+    .sgl_btm a {
+        display: flex;
+    }
+    
+    .sgl_left {
+        margin-right: 6px;
+    }
+    
+    .sgl_left a {
+        font-size: 12px;
+    }
+    
+    .sgl_item {
+        padding: 15px;
+        /* padding-left: 0; */
+        border-radius: 28px;
+        justify-content: space-evenly;
+    }
+    .sgl_btm a img {
+        margin-left: 5px;
+    }
+    .sgl_slider {
+        width: 300px;
+    }
+    
+    .sgl_slider img {
+        width: 100% !important;
+    }
+    
+    .sl_text {
+        margin-top: -80px;
+    }
+}
+
+@media (min-width:351px) and (max-width: 420px) {
+    .sgl_left a{
+    font-size: 14px;
+}
+}
+
+@media (min-width:351px) and (max-width: 370px) {
+    section.contact {
+        margin-top: 96px;
+    }
+}
+@media (min-width:371px) and (max-width: 390px) {
+    section.contact {
+        margin-top: 115px;
+    }
+}
+@media (min-width:391px) and (max-width: 400px) {
+    section.contact {
+        margin-top: 115px;
+    }
+}
+@media (min-width:401px) and (max-width: 420px) {
+    section.contact {
+        margin-top: 115px;
+    }
+    .call {
+        flex-wrap: unset;
+    }
+    
+    a.call_a {
+        margin-right: 9px;
+    }
+}
+@media (min-width:421px) and (max-width: 440px) {
+    section.contact {
+        margin-top: 136px;
+    }
+    .call {
+        flex-wrap: unset;
+    }
+    
+    a.call_a {
+        margin-right: 9px;
+    }
+}
+@media (min-width:441px) and (max-width: 460px) {
+    section.contact {
+        margin-top: 149px;
+    }
+    .call {
+        flex-wrap: unset;
+    }
+    
+    a.call_a {
+        margin-right: 9px;
+    }
+}
+@media (min-width:461px) and (max-width: 480px) {
+    section.contact {
+        margin-top: 165px;
+    }
+    .call {
+        flex-wrap: unset;
+    }
+    
+    a.call_a {
+        margin-right: 9px;
+    }
+}
+@media (min-width:481px) and (max-width: 500px) {
+    section.contact {
+        margin-top: 182px;
+    }
+    .sgl_btm {
+        flex-wrap: unset;
+    }
+    
+    .sgl_left a {
+        display: flex;
+        font-size: 17px;
+    }
+    
+    .sgl_btm a img {margin-left: 5px;}
+    
+    .sgl_item {
+        /* padding-left: 0; */
+    }
+}
